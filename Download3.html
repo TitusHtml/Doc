@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* This centers the button in the middle of the screen */
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5; /* Light background */
+    font-family: sans-serif;
+  }
+
+  /* This makes the link look like a nice button */
+  .download-btn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  /* Hover effect */
+  .download-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight lift */
+  }
+
+  /* Click effect */
+  .download-btn:active {
+    transform: translateY(0);
+  }
+</style>
+</head>
+<body>
+    <a href="Doc.tsstft" download="Doc.tsstft" class="download pad">
+        Download Doc.tsstft
+    </a>
+
+
+</body>
+</html>
